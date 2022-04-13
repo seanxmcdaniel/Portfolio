@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+h2, p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.intro {
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    background-image: url(../images/intro-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.intro h1 {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding: 140px 0 0 0;
+}
+
+.intro ul {
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.intro ul li {
+    display: inline;
+    padding: 10px 10px;
+}
