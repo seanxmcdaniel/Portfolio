@@ -6,11 +6,19 @@
 }
 
 body {
-
+    background-color: black;
 }
 
 h2, p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    text-decoration: none;
 }
 
 .intro {
@@ -23,19 +31,46 @@ h2, p {
 }
 
 .intro h1 {
+    display: flex;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: aliceblue;
     text-align: center;
     padding: 140px 0 0 0;
+    justify-content: center;
 }
 
 .intro ul {
-    position: absolute;
-    display: inline-block;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
 }
 
 .intro ul li {
-    display: inline;
     padding: 10px 10px;
+    text-decoration: none;
+}
+
+.intro p {
+    color: gray;
+    display: flex;
+    position: relative;
+    top: 140px;
+    justify-content: center;
+}
+
+.my-work {
+    height: 600px;
+    padding: 30px;
+}
+
+.about-me {
+    height: 400px;
+}
+
+.contact {
+    height: 200px;
+}
+
+.resume {
+    height: 200px;
 }
