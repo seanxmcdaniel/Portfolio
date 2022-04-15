@@ -10,32 +10,46 @@
 <body>
 <!--Intro section with background image here -->
     <div class="intro" id="intro">
-        <p>Welcome to my portfolio!</p>
-        <h1>Hi, I'm Sean! I'm a web developer.</h1>
-        <ul>
-            <li>
-                <a href="#my-work">My Work</a>
-            </li>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#get-in-touch">Get in Touch</a>
-            </li>
-            <li>
-                <a href="#resume">Resume</a>
-            </li>
-        </ul>
+        <div class="intro-overlay">
+            <p>Welcome to my portfolio!</p>
+            <h1>Hi, I'm Sean! I'm a web developer.</h1>
+            <ul>
+                <li>
+                    <a href="#my-work">My Work</a>
+                </li>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#contact">Get in Touch</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+            </ul>
+        </div>
     </div>
 
 
 <!-- My Work section here -->
     <div class="my-work" id="my-work">
         <h2>Here are some of the applications I have developed!</h2>
-        <img alt="run-buddy">
-        <img alt="horiseon">
-        <img alt="made-up-app">
-        <img alt="made-up-app">
+        <div class="my-work-content">
+            <div class="horiseon">
+                <img src="./assets/images/horiseon-refactor.png" alt="image of a website featuring a blue header stating 'Horiseon' and an image of a marketing team in a meeting">
+                <div class="image-overlay">
+                    <div class="image-title">Horiseon</div>
+                    <p class="image-description"><em>HTML, CSS Refactor</em></p>
+                </div>
+            </div>
+            <div class="runbuddy">
+                <img src="./assets/images/run-buddy.jpg" alt="Image of a website for a comapny called 'Run Buddy' featuring a blue and yellow header and a photo of a woman tying her running shoes">
+                <div class="image-overlay">
+                    <div class="image-title">Run Buddy</div>
+                    <p class="image-description"><em>HTML, CSS, JavaScript</em></p>
+                </div>
+            </div>
+        </div>
     </div>
 
 <!-- About Me section here -->
