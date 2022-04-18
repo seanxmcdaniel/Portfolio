@@ -28,5 +28,6 @@ The portfolio flexes to adapt to different viewports and window sizes, to give a
 To further insure the webpage looks its absolute best on any screen, I used media queries in the stylesheet to change the size of some of the text on the webpage, mainly to make some of the p and h1 elements more readable at different sizes. 
 
 ### Link to Deployed Portfolio Application
+https://seanxmcdaniel.github.io/Portfolio/
 
 
