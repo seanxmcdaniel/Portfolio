@@ -20,6 +20,10 @@ h2, p {
     text-shadow: 5px 5px 10px black;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: gray;
@@ -27,9 +31,24 @@ a {
     text-shadow: 5px 5px 10px black;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    transition: 200ms;
+}
+
 .intro {
     height: 100vh;
-    background-image: url(../images/intro-background.jpg);
+    background-image: url(../images/IMG_6110\ \(1\).jpg);
     background-size: cover;
     background-position: center;
 }
@@ -53,23 +72,8 @@ a {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: aliceblue;
     text-align: center;
-    font-size: 40px;
+    font-size: 55px;
     text-shadow: 5px 5px 10px black;
-}
-
-.intro ul {
-    display: flex;
-    list-style: none;
-}
-
-.intro ul li {
-    padding: 10px 10px;
-    text-decoration: none;
-}
-
-.intro a:hover {
-    color: white;
-    transition: 200ms;
 }
 
 .intro p {
@@ -79,10 +83,6 @@ a {
 
 .header {
     padding: 40px;
-}
-
-.my-work img {
-    height: 100%;
 }
 
 .my-work {
@@ -132,4 +132,33 @@ a {
 .image-title {
     font-size: 3em;
     font-weight: bolder;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 40px 40px 40px;
+    gap: 40px;
+}
+.about-me div {
+    flex:1;
+}
+
+.about-me p {
+    text-align: left;
+    font-size: 25px;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 0 40px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: gray;
+    padding: 20px 0 20px 0;
 }
