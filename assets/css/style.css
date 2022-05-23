@@ -113,6 +113,14 @@ a:hover {
     border: 5px solid white;
 }
 
+.my-work-img3 {
+    min-width: 400px;
+    flex:1;
+    background-image: url(../images/Screenshot\ \(36\).png);
+    background-size: contain;
+    border: 5px solid white; 
+}
+
 .image-overlay {
     top: 0;
     left: 0;
