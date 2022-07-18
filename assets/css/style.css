@@ -108,7 +108,7 @@ a:hover {
 .my-work-img2 {
     min-width: 400px;
     flex:1;
-    background-image: url(../images/Screenshot\ \(15\).png);
+    background-image: url(../images/Screenshot\ 2022-07-17\ 222813.png);
     background-size: cover;
     border: 5px solid white;
 }
@@ -117,11 +117,12 @@ a:hover {
     min-width: 400px;
     flex:1;
     background-image: url(../images/Screenshot\ \(36\).png);
-    background-size: contain;
+    background-size: cover;
     border: 5px solid white; 
 }
 
 .image-overlay {
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;
